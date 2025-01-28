@@ -9,9 +9,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+       almostWhite: "hsl(0, 0%, 98%)",
+       mediumGray: "hsl(0, 0%, 41%)",
+       almostBlack: "hsl(0, 0%, 8%)",
       },
+      fontFamily: {
+        epilogueReg : ["epilogue-regular", "sans-serif"],
+        epilogueBold : ["epilogue-bold", "sans-serif"],
+        epilogueSemiBold : ["epilogue-semiBold", "sans-serif"],
+      }
     },
   },
   plugins: [],
