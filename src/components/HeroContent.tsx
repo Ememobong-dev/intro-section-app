@@ -8,7 +8,7 @@ import logo4 from "../../public/images/client-maker.svg";
 const HeroContent = () => {
   return (
     <div className="w-full h-full ">
-      <div className="flex flex-col gap-y-12 ">
+      <div className="flex flex-col gap-4 md:gap-y-12 ">
         <div>
           <h2 className="font-epilogueBold md:block hidden text-4xl lg:text-6xl">
             Make

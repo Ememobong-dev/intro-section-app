@@ -7,7 +7,7 @@ import HeroContent from "@/components/HeroContent";
 export default function Home() {
   return (
     <div className="md:px-14">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="hidden md:flex mt-10 pl-28 relative pr-16 justify-between items-center">
         <HeroContent />
         <div>
